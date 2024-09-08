@@ -28,3 +28,5 @@ class Coffee:
 
     def average_price(self):
         return sum([ order.price for order in self.orders() ])/len(self.orders())
+
+
